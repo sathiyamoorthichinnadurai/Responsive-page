@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+    list-style-type: none;
+    
+}
+body{
+    padding: 0 14%;
+    background-color: rgb(7, 7, 51)
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    height: 64px;
+    margin: 25px 0;
+    
+}
+nav ul{
+    display: flex;
+    order: 2;
+    align-items: center;
+}
+nav ul a{
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-right: 50px;
+    text-decoration: none;
+}
+.nav-button{
+   
+    padding: 0.8em 1.8em;
+    text-align: center;
+    background: rgb(187, 42, 49);
+    border-radius: 25px;
+    border: none;
+    color: white;
+    font-weight: 400;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+    height: 100%;
+    gap: 40px;
+    
+}
+.hero-text{
+    width: 50%;
+    margin: 20px 0;
+}
+.hero-text h1{
+    font-size: 3.3rem;
+    margin-bottom: 8px;
+    color: white;
+
+}
+.hero-text p{
+    font-size: 1.35rem;
+    margin: 20px 0;
+    color: #ffff;
+}
+.hero-button{
+    
+    padding: 0.8em 1.8em;
+    text-align: center;
+    background: rgb(187, 42, 49);
+    border-radius: 25px;
+    border: none;
+    color: white;
+    font-weight: 400;
+    margin-top: 18px;
+}
+form{
+    background: none;
+}
+.hero-form{
+   width: 45%;
+   background: #fff;
+   padding: 1.5rem 4rem;
+   border-radius: 10px;
+  
+   text-align: center;
+   margin-bottom: 50px;
+}
+.hero-form h2{
+    text-align: center;
+    color: #000000;
+    font-size: 1.9rem;
+    background: none;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+.input-box{
+    width: 100%;
+    padding: .7rem .5rem;
+    border-radius: 20px;
+    background: none;
+    border: 1px solid rgb(99, 95, 95);
+    margin: 10px 0;
+    outline: none;
+    
+    
+}
+.checkbox{
+    text-align: left;
+    margin: 1.2rem 0;
+    color: grey;
+}
+.checkbox span{
+    margin-right: 10px;
+}
+.hero-form button{
+    width: 100%;
+    padding: .7rem .5rem;
+    border-radius: 20px;
+    border: none;
+    margin: 10px;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+
+}
+.sign-up{
+    background:rgb(7, 7, 51) ;
+}
+.login{
+    background: rgb(19, 125, 167);
+}
+.sign-in {
+    color: grey;
+    margin: 0.8rem 0;
+    font-weight: 500;
+    
+}
+.sign-in a{
+    color: rgb(70, 221, 70);
+    text-decoration: none;
+    font-weight: 600;
+}
+hr{
+    margin-top: 1.2rem;
+    width: 100%;
+}
+.or{
+    background: #fff;
+    width: 30px;
+    margin: -11px auto 10px;
+    color: grey;
+}
+
+
+
+@media(max-width:884px){
+    .container{
+        margin-top: 50px;
+        flex-direction: column;
+    }
+    .hero-text{
+        width: 100%;
+        text-align: center;
+    }
+    .hero-text h1{
+        font-size: 3rem;
+    }
+    .hero-form{
+        margin: auto;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+}
+@media(max-width:678px){
+    
+    .hero-text h1{
+        font-size: 2rem;
+    }
+    .hero-form h2{
+        font-size: 1rem;
+    }
+}
+@media(max-width:428px){
+    nav ul li{
+        display:none ;
+        
+        
+    }
+}
